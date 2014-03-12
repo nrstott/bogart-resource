@@ -1,0 +1,24 @@
+{
+  "name": "bogart-resource",
+  "version": "0.1.0",
+  "description": "Model and Controller web framework built on Bogart, utilizing Promsises for control flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --coffee spec/"
+  },
+  "keywords": [
+    "model",
+    "controller",
+    "bogart",
+    "promises",
+    "q"
+  ],
+  "author": "Nathan Stott",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "negotiator": "~0.4.2",
+    "bogart": "~0.7.0",
+    "underscore": "~1.6.0",
+    "inflect": "~0.3.0"
+  }
+}
